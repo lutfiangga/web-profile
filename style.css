@@ -1,0 +1,221 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: poppins, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background: #333D44;
+}
+
+ul{
+    list-style: none;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background: #0095FF;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.button a{
+    color: #021E1D;
+}
+.button i{
+    margin: 5px;
+}
+.profile {
+    margin-left: 20px; 
+    margin-top: 10px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+
+.content-profile .sosmed{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content-profile .sosmed a{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333D44;
+    padding: 5px;
+    margin: 5px;
+    color: #0095FF;
+    border-radius: 3px;
+}
+.content-profile .sosmed a:hover{ 
+    color: #d9d9d9;
+}
+
+.content-profile {
+    padding-top: 20px;
+    margin-top: 0;
+    display: flex;
+    width: 300px;
+    background: #021E1D;
+    border-radius: 15px;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.content-profile h2 {
+    margin-top: 10px;
+    max-width: 200px;
+    color: #d9d9d9;
+    text-align: center;
+}
+
+.contact-profile{
+    margin: 25px;
+    background: #333D44;
+    border-radius: 5px;
+}
+.contact{
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    color: #d9d9d9;
+    justify-content: start;
+    padding: 15px;
+    align-items: center;
+}
+
+.border{
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid #0095FF;
+}
+
+
+
+.contact i{
+    background-color: #021E1D;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.contact .sub{
+    margin-left: 8px;
+}
+.contact h4{
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.contact p{
+    margin-top: 0;
+    font-size: 10px;
+}
+
+.content{
+    display: flex;
+    margin-left: 50px;
+    width: 980px;
+    display: block;
+    justify-content: end;
+    background: #021E1D;
+    border-radius: 15px;
+    color: #d9d9d9;
+    padding: 50px;
+}
+
+.content h1{
+    display: flex;
+    font-size: 36px;
+}
+
+.content p{
+    font-size: 12px;
+    text-align: justify;
+}
+.content .list-skill{
+    flex-direction: row;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.content .list-skill .skills{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 280px;
+    border: 1px solid #0095FF;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.content .list-skill .skills .icons i{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333D44;
+    padding: 10px;
+    margin-right: 25px;
+    margin-left: 15px;
+    color: #0095FF;
+    border-radius: 3px;
+}
+.content .list-skill .skills .details-skill{ 
+    display: block;
+    justify-content: center;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.content .list-skill .skills .details-skill i{ 
+    margin-right: 10px;
+}
+
+.content .skills h4{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.content .skills p{
+    margin-top: 0;
+    text-align: justify;
+    font-size: 12px;
+}
+.content .tools{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content .tools i{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    color: #0095FF;
+    border-radius: 3px;
+    font-size: 50px;
+}
+.content .tools i:hover{ 
+    color: #d9d9d9;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
