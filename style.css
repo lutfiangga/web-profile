@@ -43,9 +43,13 @@ ul{
     border-radius: 5px;
     margin-bottom: 20px;
 }
+.button:hover{
+    background-color: #0095FF;
+}
 .button a{
     color: #021E1D;
 }
+
 .button i{
     margin: 5px;
 }
@@ -74,7 +78,7 @@ ul{
     border-radius: 3px;
 }
 .content-profile .sosmed a:hover{ 
-    color: #d9d9d9;
+    color: #95ff00;
 }
 
 .content-profile {
@@ -110,6 +114,10 @@ ul{
     justify-content: start;
     padding: 15px;
     align-items: center;
+}
+
+.contact:hover{
+    color: #0095FF;
 }
 
 .border{
@@ -179,6 +187,10 @@ ul{
     padding: 15px;
 }
 
+.content .list-skill .skills:hover{
+    border: 1px solid #95ff00;
+}
+
 .content .list-skill .skills .icons i{ 
     display: flex;
     justify-content: space-around;
@@ -190,6 +202,11 @@ ul{
     color: #0095FF;
     border-radius: 3px;
 }
+
+.content .list-skill .skills .icons i:hover{
+    color: #95ff00;
+}
+
 .content .list-skill .skills .details-skill{ 
     display: block;
     justify-content: center;
@@ -226,7 +243,7 @@ ul{
     font-size: 50px;
 }
 .content .tools i:hover{ 
-    color: #d9d9d9;
+    color: #95ff00;
 }
 
 footer p{
